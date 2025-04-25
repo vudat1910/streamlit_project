@@ -1,0 +1,228 @@
+ID Máy ảo, Tên hệ thống,Tên máy ảo,Avaibility (%),Số vCPU,RAM Size (GB),Tổng dung lượng disk được cấp,Tổng disk đã tính shareable,IP Addresses (máy chủ nhiều IP),IP Public để truy cập từ Internet vào nếu có,OS và phiên bản OS,APP chính,DB (nếu có),Web,Mô tả hệ thống,Công văn cấp phát,Ngày công văn,Đơn vị quản lý máy ảo,Đầu mối,Kinh doanh/Nội bộ,Cấp độ hệ thống,Cluster trên Private Cloud/Project Public Cloud,Compute,Ngày tạo,Ngày chỉnh sửa,Tải CPU (% Ultilization),Tải RAM (% Ultilization),Tải RAM_MAX,Tải RAM_MIN,Tải CPU_MAX,Tải CPU_MIN,cụm
+595dc5dc-87d7-4138-aa62-44017b403156,Chăm sóc khách hàng tập trung,CSKHTT-Mvas-app1-win,100,16,32,350,350,10.3.14.86,10.3.14.86,centos7.8,,,,,4478/mobifone-cntt,09/09/2020,TT MDS,Nguyen Dang Chung - TT MDS chung.nguyen@mobifone.vn,Nội bộ,,YH_blade_pool01,compute22.han.private.mobifone.vn,29/12/2021,29/12/2021,0,0,0,0,3,0,prvhn
+d8e95fe0-322e-4fb2-ac40-937d5b79bd2d,Chăm sóc khách hàng tập trung,CSKHTT-Mvas-app2,100,16,32,350,350,10.3.14.87,10.3.14.87,centos7.8,,,,,4478/mobifone-cntt,09/09/2020,TT MDS,Nguyen Dang Chung - TT MDS chung.nguyen@mobifone.vn,Nội bộ,,YH_blade_pool01,compute13.han.private.mobifone.vn,16/12/2021,16/12/2021,0,82,83,82,3,0,prvhn
+820b5cb4-a95a-4a94-afed-9a9cc33c13cd,Chăm sóc khách hàng tập trung,CSKHTT_Mvas_db1_new3,100,16,32,1020,1020,10.3.14.83,,,,,,,,,TT MDS,,Nội bộ,,YH_blade_pool01,compute13.han.private.mobifone.vn,04/03/2022,04/03/2022,2,98,99,98,6,2,prvhn
+48b70c87-8b03-4b69-931c-7bd4fbd3c58d,Chăm sóc khách hàng tập trung,CSKHTT_Mvas_db2_new,100,16,32,1020,1020,"192.168.122.1, 10.3.14.84",,,,,,,,,TT MDS,,Nội bộ,,YH_blade_pool01,compute21.han.private.mobifone.vn,03/03/2022,04/03/2022,1,98,99,98,3,0,prvhn
+163d9ded-461c-472c-b6c0-6b5c55835517,"Quản lý, phân tích, nâng cao chất lượng dịch vụ nhắn tin SMS",MVAS_SMSTT_APP,100,8,16,1000,1000,10.3.11.156,10.3.11.156,,,,,,4891/MOBIFONE-CNTT,28/09/2020,TT MDS,"Trịnh Văn Quyết (quyet.trinh) 
+ Phòng Kỹ thuật - TT MDS
+ 84935796699
+ quyet.trinh@mobifone.vn",Nội bộ,,YH_blade_pool01,compute24.han.private.mobifone.vn,18/03/2021,27/11/2021,15,75,99,39,81,0,prvhn
+9b7118b5-3145-4519-b995-9e8d7d18da64,MobiFone Money,PRV-YHA-2-MBF-MDS-Money-API2,100,8,32,400,400,10.3.21.211,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute33.han.private.mobifone.vn,16/12/2022,27/05/2023,1,24,25,23,31,1,prvhn
+52e14c69-8829-4ec0-91d8-b509b441ad38,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-Adapter2,100,8,16,650,650,10.3.61.207,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute36.han.private.mobifone.vn,16/12/2022,23/05/2023,1,42,46,40,26,0,prvhn
+6052ce97-c9e9-4934-83ad-df182c905194,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-API1,100,8,32,400,400,"10.3.21.210, 10.3.21.213",,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute33.han.private.mobifone.vn,22/12/2022,27/05/2023,2,24,30,22,28,1,prvhn
+156810eb-d7ca-424f-8c2e-e80877009408,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-DBOracleDataGuard,100,32,64,6524,6524,"10.3.21.204, 192.168.12.7",,,,,,,2069/MOBIFONE-CNTT,29/05/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute33.han.private.mobifone.vn,23/05/2022,03/06/2023,6,54,55,53,13,5,prvhn
+6efaaee3-7722-43d4-aca3-d4a6a7047222,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-DBOracleRAC1,100,32,64,6524,6524,"10.3.21.202, 10.3.21.214, 10.3.21.216, 192.168.12.5, 169.254.28.144",,,,,,,2069/MOBIFONE-CNTT,29/05/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute33.han.private.mobifone.vn,23/05/2022,14/06/2023,10,59,63,54,37,4,prvhn
+3c50490a-27cb-4153-bcb1-192618a05fe7,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-DBOracleRAC2,100,32,64,6524,500,"10.3.21.203, 10.3.21.215, 192.168.12.6, 169.254.27.32",,,,,,,2069/MOBIFONE-CNTT,29/05/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute36.han.private.mobifone.vn,23/05/2022,19/07/2024,8,50,52,45,43,3,prvhn
+18e38d1c-96fb-46b4-ac6d-336cabd67e44,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-ExReport,100,4,8,250,250,10.3.48.36,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute33.han.private.mobifone.vn,22/12/2022,16/05/2023,1,31,35,28,48,0,prvhn
+9349edda-bfc8-45e9-808c-2e151873e8cf,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-Financial2,100,8,32,450,450,10.3.21.195,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute36.han.private.mobifone.vn,16/12/2022,23/07/2023,3,27,32,19,37,0,prvhn
+13988690-aa41-477d-9f9b-fdc5d4b0d6dc,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-FrontendAPI4,100,4,16,150,150,10.3.61.201,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute36.han.private.mobifone.vn,16/12/2022,07/07/2023,1,23,25,21,44,1,prvhn
+de8b15cb-cbc7-47f8-9c79-c40c083924d6,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-FrontendApp4,100,6,32,300,300,10.3.61.197,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute36.han.private.mobifone.vn,16/12/2022,16/12/2022,1,15,17,14,32,0,prvhn
+1de4f906-d394-4609-9564-bc0d8990d336,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-FrontendWeb2,100,4,16,150,150,10.3.61.203,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute36.han.private.mobifone.vn,16/12/2022,14/06/2023,1,27,29,25,41,1,prvhn
+f88be83e-4b47-48fc-913b-02f2a0ddf86b,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-MonitorLog,100,8,32,100,100,10.3.21.205,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute33.han.private.mobifone.vn,22/12/2022,22/12/2022,3,47,50,45,32,1,prvhn
+6c7625f3-8e57-4aca-bf46-ac694856ebb0,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-Transaction2,100,8,40,450,450,10.3.21.199,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute36.han.private.mobifone.vn,16/12/2022,12/10/2023,6,67,74,41,39,4,prvhn
+459a2940-ba8f-40af-98f4-92d153e70220,MobiFone Money,PRV-YHA-2-MDS-MBF-Money-Transaction4,100,8,40,450,450,10.3.21.201,,,,,,,2069/MOBIFONE-CNTT,29/05/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,YH_type01_pool01,compute36.han.private.mobifone.vn,23/05/2022,12/10/2023,11,70,74,68,46,4,prvhn
+09f243b0-68ee-424c-aa95-6f3d474f3d8c,MobiFone Money,PRC-YHA-3-MDS-MBF-Money-FinCore-12,100,32,64,400,400,"10.3.21.240, 192.168.122.1",,Oracle Linux 8.9,,,,,1115/TT.NOC-QLVAS,02/07/2024,TT MDS,Trịnh Vinh Quang quang.trinh@mobifone.vn 0936131868,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-01-D.han.private.mobifone.vn,05/07/2024,05/07/2024,0,4,4,4,0,0,prvhn
+91c05c98-cddb-4b79-b59e-daf3f6e13487,MobiFone Money,PRC-YHA-3-MDS-MBF-Money-SIT-App-FrontEnd,100,8,32,200,200,"10.3.65.3, 192.168.122.1",,Oracle Linux 8.9,,,,,1115/TT.NOC-QLVAS,02/07/2024,TT MDS,Trịnh Vinh Quang quang.trinh@mobifone.vn 0936131868,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-11-D.han.private.mobifone.vn,05/07/2024,05/07/2024,0,11,12,11,0,0,prvhn
+c4166b8e-e9ad-453d-ac25-bb89ff3ac4b0,MobiFone Money,PRC-YHA-3-MDS-MBF-Money-TransCore-05,100,32,64,400,400,"10.3.21.225, 192.168.122.1",,Oracle Linux 8.9,,,,,1115/TT.NOC-QLVAS,02/07/2024,TT MDS,Trịnh Vinh Quang quang.trinh@mobifone.vn 0936131868,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-01-D.han.private.mobifone.vn,04/07/2024,04/07/2024,0,4,4,4,0,0,prvhn
+882eaaa4-9248-485d-95c6-3a11ee731a12,MobiFone Money,PRC-YHA-3-MDS-MBF-Money-UAT-AppFrontEnd,100,8,32,200,200,"10.3.61.211, 192.168.122.1",,Oracle Linux 8.9,,,,,1115/TT.NOC-QLVAS,02/07/2024,TT MDS,Trịnh Vinh Quang quang.trinh@mobifone.vn 0936131868,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-11-D.han.private.mobifone.vn,05/07/2024,10/07/2024,0,5,6,5,0,0,prvhn
+49acb401-a6de-4941-8a86-d4153b7ac4de,Hệ thống MCA,PRV-YHA-3-MDS-MCA-ADMIN2,100,24,96,2400,2400,"10.3.176.92, 172.18.0.1, 172.17.0.1",,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-06-D.han.private.mobifone.vn,19/11/2022,03/01/2024,0,29,29,29,0,0,prvhn
+36ccfaba-acc2-4175-8efd-d4a6de3c629b,Hệ thống MCA,PRV-YHA-3-MDS-MCA-APPBUZZ2,100,48,128,6400,2400,"10.3.176.82, 10.3.176.105, 10.3.176.103, 10.3.176.104, 192.168.10.12, 169.254.9.129, 192.168.122.1",,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-04-D.han.private.mobifone.vn,19/11/2022,19/11/2022,1,99,99,97,2,1,prvhn
+6a8dc5c5-49e2-44c2-bc8a-1f2afb5b5f0e,Hệ thống MCA,PRV-YHA-3-MDS-MCA-LB1,100,20,64,600,600,"10.3.176.72, 10.3.176.95",,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-07-D.han.private.mobifone.vn,18/11/2022,24/08/2023,0,85,94,71,0,0,prvhn
+3dd0801c-37c6-46ee-b3cf-c680f81b2f84,Hệ thống MCA,PRV-YHA-3-MDS-MCA-LB2,100,20,64,600,600,10.3.176.73,,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-11-D.han.private.mobifone.vn,18/11/2022,14/08/2024,0,46,51,45,0,0,prvhn
+ab7518c5-0305-4b90-abe2-9a1f2342d13f,Hệ thống MCA,PRV-YHA-3-MDS-MCA-PROBE2,100,20,32,600,600,"10.3.176.89, 172.17.0.1",,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-08-D.han.private.mobifone.vn,19/11/2022,19/11/2022,0,98,99,95,0,0,prvhn
+2c204dad-c050-45f0-bc29-cc8de29ac360,Hệ thống MCA,PRV-YHA-3-MDS-MCA-PROV1,100,32,96,1200,1200,"10.3.176.84, 10.3.176.108",,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-01-D.han.private.mobifone.vn,19/11/2022,19/11/2022,4,92,99,74,23,3,prvhn
+9d404290-2bb4-47fa-9db1-cf766fcebe23,Hệ thống MCA,PRV-YHA-3-MDS-MCA-PROV2,100,32,96,1200,1200,10.3.176.85,,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-08-D.han.private.mobifone.vn,19/11/2022,03/01/2024,3,54,99,7,16,3,prvhn
+50d87da9-af4a-40ae-a343-2a1142ddf079,Hệ thống MCA,PRV-YHA-3-MDS-MCA-SIPHCM1,100,20,64,600,600,"10.3.176.70, 10.3.176.94",,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-04-D.han.private.mobifone.vn,19/11/2022,23/08/2023,0,54,99,30,2,0,prvhn
+d0dac106-644f-4479-ad28-cfb9b01f52ee,Hệ thống MCA,PRV-YHA-3-MDS-MCA-SS7BUZZ1,100,20,64,600,600,10.3.176.76,,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-06-D.han.private.mobifone.vn,18/11/2022,08/08/2024,0,34,39,31,0,0,prvhn
+c1ba5251-7895-4b3e-b38e-6f7230189d61,Hệ thống MCA,PRV-YHA-3-MDS-MCA-SS7BUZZ2,100,20,64,600,600,10.3.176.77,,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-07-D.han.private.mobifone.vn,18/11/2022,19/11/2022,0,41,45,37,1,0,prvhn
+3ed08075-3502-42a4-a36d-223ef3711371,Hệ thống MCA,PRV-YHA-3-MDS-MCA-WEB2,100,20,24,1200,1200,10.3.48.21,,CentOS 7,,,,,4882/MOBIFONE-CNTT,11/04/2022,TT MDS,Phạm Việt Ánh. SDT: 0931516685. Email: anh.pv@mobifone.vn,Kinh doanh,,PRC-COM-R650-YHA-01,PRC-COM-R650-YHA-10-D.han.private.mobifone.vn,19/11/2022,19/11/2022,0,82,82,82,0,0,prvhn
+d5e09c99-90d1-425b-9d3b-df461b47e155,Tapping IN,CNTT_Tapping_CSDL_01,100,32,64,700,700,"10.1.10.176, 192.168.122.1",10.1.10.176,Centos 8.2,,,,,2955/MOBIFONE-CNTT,07/06/2021,TT MDS,"Trương Mỹ Thuật
+ thuat.truong@mobifone.vn
+ 84902222942",Nội bộ,,Q9_type01_pool01,compute41.hcm.private.mobifone.vn,25/06/2021,16/08/2021,17,62,62,62,29,8,prvhcm
+d7ca6d8f-9341-478d-b7c0-6d82f5b6a88f,MobiFone Money,MBF-Money.Adapter1new,100,8,16,650,650,10.1.3.14,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,30/05/2022,27/04/2023,0,22,24,21,19,0,prvhcm
+85b93cde-c051-48e5-904a-6b84de3ff1a6,MobiFone Money,MBF-Money.API1new,100,8,32,400,400,"10.1.15.14, 10.1.15.21",,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,30/05/2022,23/08/2023,2,15,16,14,19,1,prvhcm
+4eee4b0e-0cd8-46fa-976a-0ffe078a6eb2,MobiFone Money Security,MBF-Money.ATTT-SPS,100,8,16,500,500,10.1.3.67,,,,,,,,,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,13/06/2022,30/12/2022,0,72,75,70,3,0,prvhcm
+73a64a84-dfbf-4466-b189-c1d40319f25f,MobiFone Money,MBF-Money.BackendLB1new,100,4,8,100,100,10.1.15.10,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,30/05/2022,23/08/2023,3,35,38,31,36,2,prvhcm
+82503acd-d725-4e5a-8a31-ac061172f889,MobiFone Money,MBF-Money.DBOracleRAC1,100,32,64,11764,11764,"10.1.15.17, 10.1.15.22, 10.1.15.24, 192.168.12.5, 169.254.21.154, 172.17.0.1, 192.168.122.1",10.1.15.17,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,30/05/2022,27/04/2023,5,39,40,38,15,4,prvhcm
+1f9386a2-cb33-42e9-8067-46aec84fa2a3,MobiFone Money,MBF-Money.DBOracleRAC2,100,32,64,11764,500,"10.1.15.18, 10.1.15.23, 192.168.12.6, 169.254.3.126, 192.168.122.1, 172.17.0.1",10.1.15.18,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,30/05/2022,27/05/2024,1,38,39,38,10,1,prvhcm
+07ac2f63-1e65-4b98-915d-60b2975d1e18,MobiFone Money,MBF-Money.Financial1new,100,8,32,450,450,"10.1.15.2, 172.17.0.1, 172.18.0.1",,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,30/05/2022,24/08/2023,2,16,17,16,31,2,prvhcm
+da5adee2-dfda-42c1-bd3e-b1fdbea2fc07,MobiFone Money,MBF-Money.Financial2new,100,8,32,450,450,"10.1.15.3, 172.18.0.1, 172.17.0.1",,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute42.hcm.private.mobifone.vn,30/05/2022,24/08/2023,1,15,16,15,22,0,prvhcm
+5629111a-7726-4602-bb32-6b695faf3785,MobiFone Money,MBF-Money.Financial4,100,8,32,450,450,"10.1.15.5, 172.18.0.1, 172.17.0.1",10.1.15.5,,,,,,2069/MOBIFONE-CNTT,02/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute48.hcm.private.mobifone.vn,30/05/2022,27/05/2024,2,14,16,13,28,1,prvhcm
+b9779d3e-f6e3-4376-9997-08f2504c8777,MobiFone Money,MBF-Money.FrontEndAPI1new,100,4,16,150,150,10.1.3.2,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,30/05/2022,04/01/2023,1,23,25,21,39,1,prvhcm
+a05aa9a9-9b0d-4da5-bb98-d934b2991804,MobiFone Money,MBF-Money.FrontEndAPI2new,100,4,16,150,150,10.1.3.3,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute36.hcm.private.mobifone.vn,30/05/2022,27/05/2024,1,20,22,19,32,0,prvhcm
+ad5cd467-4ec1-4ac9-948b-379fba9d728c,MobiFone Money,MBF-Money.FrontEndApp4new,100,6,32,300,300,10.1.3.9,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute36.hcm.private.mobifone.vn,30/05/2022,27/05/2024,0,10,11,9,26,0,prvhcm
+ea9d2347-9d40-4eb5-9b99-bf7fc81a5c93,MobiFone Money,MBF-Money.FrontEndLB2new,100,4,8,100,100,10.1.3.11,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute36.hcm.private.mobifone.vn,30/05/2022,27/05/2024,1,26,32,22,38,1,prvhcm
+81e1fd72-251b-4949-8c66-88c5deeb737d,MobiFone Money,MBF-Money.FrontEndWeb1new,100,4,16,150,150,10.1.3.12,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,30/05/2022,23/08/2023,1,22,24,20,40,1,prvhcm
+e0b53ecc-e23a-4d29-ad18-33c9c1801e97,MobiFone Money,MBF-Money.FrontEndWeb2new,100,4,16,150,150,10.1.3.13,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute36.hcm.private.mobifone.vn,30/05/2022,27/05/2024,1,20,22,18,38,0,prvhcm
+7547baa1-640f-414c-b643-cf996d5f5dad,MobiFone Money,MBF-Money.Transaction1new,100,8,40,450,450,10.1.15.6,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,30/05/2022,11/10/2023,0,11,12,10,23,0,prvhcm
+08c8a6a5-9dd3-48b2-81f8-89805e59fa87,MobiFone Money,MBF-Money.Transaction3new,100,8,40,450,450,10.1.15.8,,,,,,,2069/MOBIFONE-CNTT,06/06/2022,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,30/05/2022,11/10/2023,1,17,18,16,21,1,prvhcm
+20d998ac-8d22-45fb-aa85-06991670756a,Hệ thống backup FTP Log MobiFone Money,MDS_MobiFone_Pay_01,100,4,8,6950,6950,"10.1.10.193, 192.168.122.1",10.1.10.193,Centos,,,,Hệ thống MobiFone Pay,3349/MOBIFONE-CNTT,23/06/2021,TT MDS,"trung.hoang
+ 901 668 666",Kinh doanh,,Q9_type01_pool01,compute40.hcm.private.mobifone.vn,09/07/2021,09/07/2021,1,55,55,54,1,1,prvhcm
+21f81c86-0189-4977-ad24-bd6f176b311b,NEIF GW,mds_neifrcv_app,100,8,16,300,300,"10.1.10.101, 192.168.122.1",10.1.10.101.,centos 7.8,,,,,2001/MOBIFONE-CNTT,19/04/2021,TT MDS,"Trường Mỹ Thuật
+ 
+
+ thuat.truong@mobifone.vn
+ 
+
+ 84902222942",Nội bộ,,Q9_type01_pool01,compute49.hcm.private.mobifone.vn,29/04/2021,07/05/2021,1,64,81,62,1,1,prvhcm
+53219b94-7d68-491e-badd-e0c8af5c1199,OMC TT MDS,mds_omc_db-01,100,16,32,600,600,"10.1.10.99, 192.168.122.1",10.1.10.99. 1,,,,,,"2001/MOBIFONE-CNTT ngày 19/04/2021cấp phát tài nguyên cho Trung tâm
+ Dịch vụ số MobiFone (DR MobiFone
+ Pay hợp tác. Lời nhắn thoại. OMC. NEIF
+ GW)",19/04/2021,TT MDS,"Trương Mỹ Thuật
+ 
+
+ thuat.truong@mobifone.vn
+ 
+
+ 84902222942",Nội bộ,,Q9_type01_pool01,compute49.hcm.private.mobifone.vn,29/04/2021,08/11/2021,7,99,99,87,19,1,prvhcm
+228b2fae-421c-4144-9815-0f0526a60b8d,Lời nhắn thoại,mds_voicemsg_application-03,100,24,32,1224,200,"10.1.10.84, 192.168.122.1, 172.17.0.1",10.1.10.84. 1,centos 8.2,,,,,"2001/MOBIFONE-CNTT ngày 19/04/2021cấp phát tài nguyên cho Trung tâm
+ Dịch vụ số MobiFone (DR MobiFone
+ Pay hợp tác. Lời nhắn thoại. OMC. NEIF
+ GW)",19/04/2021,TT MDS,"Trương Mỹ Thuật
+ 
+
+ thuat.truong@mobifone.vn
+ 
+
+ 84902222942",Kinh doanh,,Q9_type01_pool01,compute41.hcm.private.mobifone.vn,29/04/2021,08/06/2021,9,67,71,58,14,5,prvhcm
+9f1d6652-b939-48b2-9403-9d2d62a16d8c,Lời nhắn thoại,mds_voicemsg_dba-01,100,32,64,12488,12488,"10.1.10.95, 10.1.10.140, 10.1.10.135, 10.1.10.139, 10.1.10.137, 192.168.30.95, 169.254.29.140, 192.168.122.1",10.1.10.95. 1,centos 8.2,,,,,"2001/MOBIFONE-CNTT ngày 19/04/2021cấp phát tài nguyên cho Trung tâm
+ Dịch vụ số MobiFone (DR MobiFone
+ Pay hợp tác. Lời nhắn thoại. OMC. NEIF
+ GW)",19/04/2021,TT MDS,"Trương Mỹ Thuật
+ 
+
+ thuat.truong@mobifone.vn
+ 
+
+ 84902222942",Kinh doanh,,Q9_type01_pool01,compute43.hcm.private.mobifone.vn,29/04/2021,06/12/2021,11,82,84,79,43,6,prvhcm
+1abe9154-4aef-4cb2-a1d3-1575070abfe8,Lời nhắn thoại,mds_voicemsg_media-02,100,16,32,1224,200,"10.1.10.79, 10.53.17.22, 10.53.17.41, 10.53.17.55, 192.168.122.1",10.1.10.79. 1,centos 8.2,,,,,"2001/MOBIFONE-CNTT ngày 19/04/2021cấp phát tài nguyên cho Trung tâm
+ Dịch vụ số MobiFone (DR MobiFone
+ Pay hợp tác. Lời nhắn thoại. OMC. NEIF
+ GW)",19/04/2021,TT MDS,"Trương Mỹ Thuật
+ 
+
+ thuat.truong@mobifone.vn
+ 
+
+ 84902222942",Kinh doanh,,Q9_type01_pool01,compute49.hcm.private.mobifone.vn,29/04/2021,09/06/2021,13,15,16,14,20,8,prvhcm
+ef6b0064-1cc7-4254-a00d-2b57ebaecae4,Lời nhắn thoại,mds_voicemsg_web-02,0,4,16,200,200,10.1.10.86192.168.122.1,10.1.10.86,Centos 8.2,,,,,"2001/MOBIFONE-CNTT ngày 19/04/2021cấp phát tài nguyên cho Trung tâm
+ Dịch vụ số MobiFone (DR MobiFone
+ Pay hợp tác. Lời nhắn thoại. OMC. NEIF
+ GW)",19/04/2021,TT MDS,"Trương Mỹ Thuật
+ 
+
+ thuat.truong@mobifone.vn
+ 
+
+ 84902222942",Kinh doanh,,Q9_type01_pool01,,29/04/2021,16/09/2024,0,0,0,0,0,0,prvhcm
+217956f5-6788-48c0-ba17-75f52a6c5330,Nền tảng quảng cáo,PRV-Q09-2-TTMDS-ADS-app05,100,24,96,800,800,"10.1.186.55, 172.16.0.44, 192.168.122.1, 172.17.0.1, 172.18.0.1, 172.19.0.1, 172.20.0.1",,CentOS 7.9,,,,,887/MOBIFONE-CNTT,14/03/2023,TT MDS,Đào Lê Giang giang.daole@mobifone.vn 0936102438,Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-05-d.hcm.private.mobifone.vn,08/03/2023,20/03/2023,9,93,96,88,19,4,prvhcm
+7971bbbc-b6a0-4fe9-95d2-e391c493d9b1,Nền tảng quảng cáo,PRV-Q09-2-TTMDS-ADS-campaign02,100,24,96,800,800,"10.1.186.39, 172.16.0.39, 192.168.122.1, 172.20.0.1, 172.17.0.1, 172.18.0.1, 172.19.0.1, 192.168.80.1",,CentOS 7.9,,,,,887/MOBIFONE-CNTT,14/03/2023,TT MDS,Đào Lê Giang giang.daole@mobifone.vn 0936102438,Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-05-d.hcm.private.mobifone.vn,08/03/2023,07/09/2023,6,92,95,88,12,1,prvhcm
+125495a9-3579-472e-83ab-163413ccc3c7,Nền tảng quảng cáo,PRV-Q09-2-TTMDS-ADS-event02,100,32,196,800,800,"10.1.186.37, 172.16.0.37, 172.16.0.105, 192.168.122.1, 172.19.0.1, 172.18.0.1, 172.17.0.1",10.1.186.55 (VIP),CentOS 7.9,,,,,887/MOBIFONE-CNTT,14/03/2023,TT MDS,Đào Lê Giang giang.daole@mobifone.vn 0936102438,Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-03-d.hcm.private.mobifone.vn,08/03/2023,31/07/2024,22,96,99,91,26,19,prvhcm
+af3f1a8b-95f2-4638-93a1-4c2359257d52,Nền tảng quảng cáo,PRV-Q09-2-TTMDS-ADS-lbdmz01,100,16,32,628,628,"10.1.230.34, 10.1.230.36, 192.168.122.1","42.1.66.46, 10.1.230.36 (VIP)",CentOS 7.9,,,,,887/MOBIFONE-CNTT,14/03/2023,TT MDS,Đào Lê Giang giang.daole@mobifone.vn 0936102438,Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-10-d.hcm.private.mobifone.vn,08/03/2023,06/09/2023,0,98,99,98,0,0,prvhcm
+f9c7ce15-7ddd-4e27-a2da-557482a80c62,Nền tảng quảng cáo,PRV-Q09-2-TTMDS-ADS-lbdmz02,100,16,32,628,628,"10.1.230.35, 192.168.122.1, 172.17.0.1","42.1.66.46, 10.1.230.36 (VIP)",CentOS 7.9,,,,,887/MOBIFONE-CNTT,14/03/2023,TT MDS,Đào Lê Giang giang.daole@mobifone.vn 0936102438,Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-07-d.hcm.private.mobifone.vn,08/03/2023,06/05/2024,0,18,18,18,0,0,prvhcm
+47d39894-0f6a-4109-926a-4b701b2abf7b,Nền tảng quảng cáo,PRV-Q09-2-TTMDS-ADS-remote01,100,4,16,400,400,"10.1.186.52, 172.16.0.199, 192.168.56.1",,Window Server 2019,,,,,887/MOBIFONE-CNTT,14/03/2023,TT MDS,Đào Lê Giang giang.daole@mobifone.vn 0936102438,Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-05-d.hcm.private.mobifone.vn,08/03/2023,30/08/2024,5,23,24,22,8,5,prvhcm
+177f573a-c557-43c9-a9d4-2a875760b48b,Nền tảng quảng cáo,PRV-Q09-2-TTMDS-ADS-remote02,100,4,16,400,400,"10.1.186.53, 172.16.0.103",,Window Server 2019,,,,,887/MOBIFONE-CNTT,14/03/2023,TT MDS,Đào Lê Giang giang.daole@mobifone.vn 0936102438,Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-09-d.hcm.private.mobifone.vn,08/03/2023,15/08/2023,24,90,95,87,34,21,prvhcm
+cade5b0a-e3b7-4abc-9833-0af8f7b6becc,Nền tảng quảng cáo,PRV-Q09-2-TTMDS-ADS-report01,100,32,96,9300,9300,"10.1.186.48, 10.1.186.57, 169.254.7.202, 172.16.0.48, 172.16.0.118, 172.16.0.110, 172.16.0.112, 192.168.122.1",10.1.186.57 (VIP),Oracle Linux 8.7,,,,,887/MOBIFONE-CNTT,14/03/2023,TT MDS,Đào Lê Giang giang.daole@mobifone.vn 0936102438,Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-10-d.hcm.private.mobifone.vn,08/03/2023,20/03/2023,3,35,37,32,10,1,prvhcm
+9b91b8a0-937a-4906-b673-f053ef11c285,Fintech Platform,PRV-Q09-2-TTMDS-FintechPlatform-APP-01,100,32,128,2148,2148,"10.1.186.69, 10.1.186.71, 192.168.122.1",10.1.186.70 (VIP),Redhat 7.6,,,,,202302QTCPC0001,,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-07-d.hcm.private.mobifone.vn,10/03/2023,06/05/2024,0,30,31,28,2,0,prvhcm
+647614e7-aa92-4be0-96a5-7728f84afeec,Fintech Platform,PRV-Q09-2-TTMDS-FintechPlatform-APP-02,100,32,128,2148,2148,"10.1.186.70, 192.168.122.1",10.1.186.70 (VIP),Redhat 7.6,,,,,202302QTCPC0001,,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-05-d.hcm.private.mobifone.vn,10/03/2023,31/07/2024,0,15,17,15,9,0,prvhcm
+91881257-004d-499b-b665-aa00e26ca276,Fintech Platform,PRV-Q09-2-TTMDS-FintechPlatform-DB-01,100,32,128,14618,14618,"10.1.186.72, 10.1.186.74, 10.1.186.76, 10.1.186.78, 192.168.1.2, 169.254.19.136, 192.168.122.1",,Oracle Linux 8.6,,,,,202302QTCPC0001,,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-09-d.hcm.private.mobifone.vn,09/03/2023,02/08/2023,3,76,77,75,23,1,prvhcm
+ea91899d-63fe-47c5-9e5b-0b2606141cc4,Fintech Platform,PRV-Q09-2-TTMDS-FintechPlatform-DB-02,100,32,128,14618,2348,"10.1.186.73, 10.1.186.75, 10.1.186.77, 192.168.1.3, 169.254.17.74, 192.168.122.1",,Oracle Linux 8.6,,,,,202302QTCPC0001,,TT MDS,"Nguyễn Quang Khánh
+ khanh.nq@mobifone.vn
+ 84936198636",Kinh doanh,,PRC-COM-R650-Q9-01,prc-com-r650-q9-05-d.hcm.private.mobifone.vn,10/03/2023,02/08/2023,2,74,75,73,9,1,prvhcm
+6af26b0f-dc64-4587-9839-e8961c543154,Hệ thống VASGATE Phase 2,PRV-Q09-2-TTMDS-VASGATE-DBServer01,100,16,128,4600,4600,"10.1.186.4, 10.1.186.6, 10.1.186.10, 10.1.186.9, 192.168.11.6, 169.254.11.80, 192.168.122.1",,Oracle Linux 7.9,,,,,5297/MOBIFONE-CNTT,01/12/2022,TT MDS,"Nguyễn Duy Hoàng mobile: 0936384694, email: hoang.nguyenduy@mobifone.vn",Nội bộ,,PRC-COM-R650-Q9-01,prc-com-r650-q9-07-d.hcm.private.mobifone.vn,18/01/2023,28/05/2024,5,33,36,32,49,3,prvhcm
+fa0032b6-245d-4f21-b426-c35bcbd0b680,Hệ thống VASGATE Phase 2,PRV-Q09-2-TTMDS-VASGATE-DBServer04,100,16,128,2855,600,"10.1.186.12, 10.1.186.14, 10.1.186.15, 192.168.11.9, 169.254.30.78, 192.168.122.1",,Oracle Linux 7.9,,,,,5297/MOBIFONE-CNTT,01/12/2022,TT MDS,"Nguyễn Duy Hoàng mobile: 0936384694, email: hoang.nguyenduy@mobifone.vn",Nội bộ,,PRC-COM-R650-Q9-01,prc-com-r650-q9-10-d.hcm.private.mobifone.vn,18/01/2023,31/07/2024,1,84,85,84,3,1,prvhcm
+f3e94048-44d2-49cb-a8ce-a62d1d4bb7dc,MiniGame,PRC-HPG-1-MDS-MiniGame-Vm-db3,"907,844",32,64,5120,5120,10.2.9.38,,Oracle Linux 7.7,,,,Hệ thống gồm các trò chơi Mini Game được phục vụ tích hợp trên các dịch vụ số để triển khai các chương trình khuyến mại,148/BUCLOUDC,01/10/2024,TT MDS,Nguyễn Văn Tân tan.nv@mobifone.vn 09331785297,Kinh doanh,2,PRC-COM-S480G10-HPG-01,prc-com-s480g10-hpg-07-h.hpg.private.mobifone.vn,07/10/2024,08/11/2024,0,2,3,0,1,0,prvhpg
+825a18b0-d1e5-4881-be0f-980eaad84760,MobiFone Money,PRV-Q09-1-TTMDS-MONEY-DR-FINCORE05,100,32,64,400,400,10.1.15.35,,Oracle Linux 8.9,,,,,1115/TT.NOC-QLVAS,02/07/2024,TT MDS,Trịnh Vinh Quang quang.trinh@mobifone.vn 0936131868,Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,04/07/2024,04/07/2024,0,3,3,3,0,0,prvhcm
+9ce2e6a4-53a5-47ca-9165-1cff694e31fb,MobiFone Money,PRV-Q09-1-TTMDS-MONEY-DR-FINCORE11,100,32,64,400,400,10.1.15.41,,Oracle Linux 8.9,,,,,1115/TT.NOC-QLVAS,02/07/2024,TT MDS,Trịnh Vinh Quang quang.trinh@mobifone.vn 0936131868,Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,04/07/2024,04/07/2024,0,3,3,3,0,0,prvhcm
+122d4316-3359-4ad2-8db2-9fec7a82bd5b,MobiFone Money,PRV-Q09-1-TTMDS-MONEY-DR-TRANSCORE05,100,32,64,100,100,10.1.15.27,,Oracle Linux 8.9,,,,,1115/TT.NOC-QLVAS,02/07/2024,TT MDS,Trịnh Vinh Quang quang.trinh@mobifone.vn 0936131868,Kinh doanh,,Q9_type01_pool01,compute33.hcm.private.mobifone.vn,04/07/2024,04/07/2024,0,3,3,3,0,0,prvhcm
+f48b3139-43ef-4094-b196-618e14842268,MobiFone Money,PRV-Q09-1-TTMDS-MONEY-DR-TRANSCORE08,100,32,64,400,400,10.1.15.30,,Oracle Linux 8.9,,,,,1115/TT.NOC-QLVAS,02/07/2024,TT MDS,Trịnh Vinh Quang quang.trinh@mobifone.vn 0936131868,Kinh doanh,,Q9_type01_pool01,compute48.hcm.private.mobifone.vn,04/07/2024,04/07/2024,0,3,3,3,0,0,prvhcm
+dd305527-fef5-4c77-b2a2-d2423b403388,SMS Brandname,PRC-HPG-01-TTMDS-SMSbrandname-web01,"999,992",16,64,1070,1070,10.2.133.42,"42.1.75.22, 10.2.133.45 (VIP)",Oracle Linux 7.9,,,,Hệ thống SMS Brandname cung cấp dịch vụ SMS Brandname trên toàn mạng MobiFone tại Trung tâm MDS và các Công ty KV,194/BUCLOUDC,30/10/2024,TT MDS,Đoàn Thị Thu Trang trang.doan@mobifone.vn 0904901686,Kinh doanh,3,PRC-COM-S480G10-HPG-01,prc-com-s480g10-hpg-14-h.hpg.private.mobifone.vn,01/11/2024,13/11/2024,0,3,3,0,2,0,prvhpg
+97e13b8f-b67c-4903-8b5b-439f51a62f67,MobiEdu - Phân hệ Đào tạo CĐS cho Bộ TTTT (MobiEdu - OneTouch),PRC-HPG-1-TTMDS-MOOCs-Streaming-10,100,16,24,4200,4200,10.2.133.23,"42.1.75.10, 10.2.9.12 (local)",Ubuntu 22.04,,,,Máy chủ Streaming zone thực hiện streaming video tới người học và xử lý encode dữ liệu video bài học,553/TT.NOC-QLVAS,10/04/2024,TT MDS,Phạm Quang Hưng 0932829305 hung.pq@mobifone.vn,Kinh doanh,3,PRC-COM-S480G10-HPG-01,prc-com-s480g10-hpg-15-h.hpg.private.mobifone.vn,11/04/2024,18/06/2024,2,5,6,5,14,0,prvhpg
+49889fd0-1d55-49db-968f-34c169922877,VAS Platform,PRC-HPG-1-TTTMDS-VASPL.WEB02,"99,976",32,64,512,512,10.2.133.6,10.2.133.7 (VIP),RHEL 7.9,,,,"Quản lý thông tin kịch bản gói cước dịch vụ. Quản lý kịch bản đăng ký, hủy, gia hạn. Quản lý kết nối từ MBF tới hệ thống CP/SP. Cổng tương tác giữa các CP/SP với các hệ thống khác của MBF.","403, 468/TT.NOC-QLVAS",25/03/2024,TT MDS,Phạm Tiến Dũng dung.pt@mobifone.vn 0936027087,Nội bộ,1,PRC-COM-S480G10-HPG-01,prc-com-s480g10-hpg-01-h.hpg.private.mobifone.vn,04/04/2024,22/11/2024,0,15,23,0,1,0,prvhpg
+fbe66953-29ff-49c0-b190-8e160537803e,Fintech Platform,PRC-Q09-3-TTMDS-FINTECH_ADMIN2,"999,799",8,16,300,300,10.0.10.156,,,,,,Jump Server phục vụ quản trị hệ thống Fintech,209/BUCLOUDC,04/11/2024,TT MDS,Hoàng Thị Hường huong.hoangthi@mobifone.vn 0934540798,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-29-h.hcm.private.mobifone.vn,06/11/2024,06/11/2024,0,9,13,0,10,0,prvhcm
+41c04813-8cb2-4101-94ce-2e0173174ec3,Funring Support,PRC-Q09-3-TTMDS-FUNRINGSUPPORT-DB1,100,16,64,5000,5000,"192.168.1.2, 10.0.12.4","10.0.12.6, .8, .9 (VIP)",Oracle Linux 7.8,,,,hệ thống phân tích và phát triển kinh doanh dịch vụ Funring,208/BUCLOUDC,04/11/2024,TT MDS,Nguyễn Duy Hoàng hoang.nguyenduy@mobifone.vn 0936384694,Kinh doanh,2,prc-compute-q9-01,prc-com-s480g10-q9-26-h.hcm.private.mobifone.vn,06/11/2024,06/11/2024,0,2,5,0,5,0,prvhcm
+06784cfc-80ed-4413-8827-39d4a3283bfc,Khuyến mại và đặt lịch tặng quà các dịch vụ DPT và GTGT,PRC-Q09-3-TTMDS-KMQT-WEB2,100,32,32,800,800,10.0.10.171,"42.1.110.147, 10.0.133.172 (VIP)",Oracle Linux 8.10,,,,"Xử lý các chương trình khuyến mại, giúp đăng ký bundle đồng thời nhiều gói cước của trung tâm MDS",168/BUCLOUDC,28/10/2024,TT MDS,Phạm Tiến Dũng dung.pt@mobifone.vn 0936027087,Kinh doanh,2,prc-compute-q9-01,prc-com-s480g10-q9-07-h.hcm.private.mobifone.vn,30/10/2024,30/10/2024,0,4,4,4,0,0,prvhcm
+aa966f78-7a80-4ca5-8dde-885f7ddff914,mPro,PRC-Q09-3-TTMDS-MPRO.DB1,100,20,48,900,900,10.0.10.230,10.0.10.233-236 (VIP),Oracle Linux 8,,,,"Hỗ trợ kinh doanh, với hai chức năng chính: quản lý đại lý, merchant, điểm kinh doanh của MobiFone và chi trả hoa hồng.",190/BUCLOUDC,30/10/2024,TT MDS,Nguyễn Thị Thanh Nga nga.nguyenthi10@mobifone.vn 0786571951,Kinh doanh,2,prc-compute-q9-01,prc-com-s480g10-q9-17-h.hcm.private.mobifone.vn,31/10/2024,31/10/2024,0,3,3,3,0,0,prvhcm
+7967995f-e289-45da-9462-28537176e3b7,MobiFone Money,PRC-Q09-3-TTMDS-TGTT-FRONTEND,100,8,16,300,300,"10.0.133.162, 192.168.122.1",,Oracle Linux 8.6,,,,Thực hiện các tính năng test tích hợp với hệ thống MobiFone Money,170/BUCLOUDC,14/10/2024,TT MDS,Nguyễn Văn Tân tan.nv@mobifone.vn 0931785297,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-29-h.hcm.private.mobifone.vn,14/10/2024,14/10/2024,0,8,8,7,0,0,prvhcm
+55d34dd2-3bf2-4f04-9c42-4462cebd71d5,Kho code tập trung,PRV-Q09-3-TTCNTT-KHOCODETAPTRUNG-WEB1,100,16,32,500,500,10.0.10.132,10.0.10.138 (VIP),Oracle Linux 7.9,,,,"Hệ thống hỗ trợ quản trị việc nhập kho, phân phối tập trung và bán mã thẻ điện tử thông qua các hệ thống kết nối",182/BUCLOUDC,24/10/2024,TT MDS,Ngô Thị Hương Giang giang ngo@mobifone.vn 0938110293,Nội bộ,2,prc-compute-q9-01,prc-com-s480g10-q9-29-h.hcm.private.mobifone.vn,26/10/2024,26/10/2024,0,3,3,3,0,0,prvhcm
+a7123d25-2374-490e-a08e-c8ce20c8cdbc,ClipTV,PRV-Q09-3-TTMDS-BAOCAOVANAPTHECODECLIPTV-CMS2,"999,999",8,7,300,300,10.0.12.19,10.0.12.22 (VIP),CentOS 7.8,,,,Thực hiện báo cáo số liệu và hệ thống cung cấp mã thẻ code cho dịch vụ ClipTV,234/BUCLOUDC,15/11/2024,TT MDS,Phạm Việt Ánh anh.pv@mobifone.vn 0931516685,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-17-h.hcm.private.mobifone.vn,15/11/2024,15/11/2024,0,9,9,3,4,0,prvhcm
+448e7a01-1879-4277-bd68-6f1b4e240124,BuzzMe,PRV-Q09-3-TTMDS-BUZZME-SMU3,100,16,64,500,500,"10.0.10.6, 10.0.10.14",10.0.10.14 (VIP),Oracle Linux 8.7,,,,Hệ thống BuzzMe là dịch vụ cho phép thuê bao gọi (Calling) MobiFone nếu không đủ tiền trong tài khoản để thực hiện cuộc gọi hoặc thuê bao bị gọi bận có thể tạo một cuộc gọi nhỡ trên điện thoại của thuê bao nhận cuộc gọi (Called) hoặc nhắn tin thông báo đến thuê bao đó,87/BUCLOUDC,29/08/2024,TT MDS,Trần Quang Thắng - Phòng Phần mềm và Phát triển dịch vụ - TT MDS - thang.tranquang@mobifone.vn - 0903106558,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-11-h.hcm.private.mobifone.vn,30/08/2024,30/08/2024,23,20,25,13,38,6,prvhcm
+5ae95079-614e-457a-b0c9-e3ce8532e898,Hệ thống truyền thông và đăng ký gói cước trên DMP hỗ trợ CALLOUT,PRV-Q09-3-TTMDS-DMP-DB01,100,32,120,3300,3300,"10.0.10.38, 172.17.0.1",,Oracle Linux 8.7,,,,"Cung cấp data khách hàng cho hệ thống CALLOUT có mã hóa số điện thoại, nhắn tin MT cho khách hàng và nhận tin MO của khách hàng qua đầu số 9151. Thực hiện đăng ký gói cước cho khách hàng.",140/BUCLOUDC,25/09/2024,TT MDS,Phạm Đắc Nội noi.phamdac10@mobifone.vn 0776182700,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-12-h.hcm.private.mobifone.vn,27/09/2024,27/09/2024,0,3,6,2,24,0,prvhcm
+7dbd686c-3153-47bd-9533-def45f519f82,Hệ thống truyền thông và đăng ký gói cước trên DMP hỗ trợ CALLOUT,PRV-Q09-3-TTMDS-DMP-SERVER03,100,24,64,800,800,"10.0.10.36, 172.17.0.1",,CentOS 7.9,,,,"Cung cấp data khách hàng cho hệ thống CALLOUT có mã hóa số điện thoại, nhắn tin MT cho khách hàng và nhận tin MO của khách hàng qua đầu số 9151. Thực hiện đăng ký gói cước cho khách hàng.",140/BUCLOUDC,25/09/2024,TT MDS,Phạm Đắc Nội noi.phamdac10@mobifone.vn 0776182700,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-30-h.hcm.private.mobifone.vn,27/09/2024,27/09/2024,0,9,10,7,0,0,prvhcm
+8694cefb-07e2-43ea-9716-7ab3cf94409c,Fintech Platform,PRV-Q09-3-TTMDS-FINTECH-APPDB01,100,12,32,632,632,"10.0.10.148, 192.168.1.2",10.0.10.151-154 (VIP),Oracle Linux 7.9,,,,Hệ thống Fintech được xây dựng với mục đích cung cấp một nền tảng hỗ trợ kinh doanh các dịch vụ Fintech cho các tổ chức tài chính phi ngân hàng và ngân hàng. Quy mô của hệ thông cung câp dịch vụ cho hơn 10 tổ chức tài chính sử dụng. Hệ thông cung câp các chức năng chính sau: Dịch vụ cung cấp điểm tín dụng/điểm tín nhiệm (Credit/ Fraud score); Dịch vụ tìm kiếm khách hàng tiềm năng (Leadgen).,181/BUCLOUDC,23/10/2024,TT MDS,Hoàng Thị Hường huong.hoangthi@mobifone.vn 0934540798,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-16-h.hcm.private.mobifone.vn,24/10/2024,24/10/2024,0,3,3,3,3,0,prvhcm
+3fcd17bd-074f-497f-9db5-b41e2787496f,Fintech Platform,PRV-Q09-3-TTMDS-FINTECH-APPDB02,100,12,32,632,632,"10.0.10.149, 192.168.1.3",10.0.10.151-154 (VIP),Oracle Linux 7.9,,,,Hệ thống Fintech được xây dựng với mục đích cung cấp một nền tảng hỗ trợ kinh doanh các dịch vụ Fintech cho các tổ chức tài chính phi ngân hàng và ngân hàng. Quy mô của hệ thông cung câp dịch vụ cho hơn 10 tổ chức tài chính sử dụng. Hệ thông cung câp các chức năng chính sau: Dịch vụ cung cấp điểm tín dụng/điểm tín nhiệm (Credit/ Fraud score); Dịch vụ tìm kiếm khách hàng tiềm năng (Leadgen).,181/BUCLOUDC,23/10/2024,TT MDS,Hoàng Thị Hường huong.hoangthi@mobifone.vn 0934540798,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-29-h.hcm.private.mobifone.vn,24/10/2024,24/10/2024,0,3,3,3,3,0,prvhcm
+421e3dc1-369f-431d-b330-3e40a9afff06,Hệ thống Quản trị và phân tích dữ liệu Logs tập trung,PRV-Q09-3-TTMDS-LOGS_OBSERVABILIRY-LOGSTASH01,100,48,96,1000,1000,"10.0.9.171, 10.0.9.173, 172.17.0.1, 172.18.0.1, 172.19.0.1",10.0.9.173 (VIP),Ubuntu 22.04,,,,"Hệ thống thu thập thông tin logs từ các hệ thông, xử lý và phân tích dữ liệu. Đưa ra số liệu, xây dựng các biểu đồ cảnh báo phục vụ monitor trong quá tình vận hành. Hỗ trợ vận hành, phân tích, tracing luồng nghiệp vụ, dữ liệu khi có vấn đề phát sinh như lỗi, phản ánh của khách hàng.",50/BUCLOUDC,31/07/2024,TT MDS,Nguyễn Thái Hiệp hiep.nguyenthai10@.mobifone.vn 0355782913,Nội bộ,3,prc-compute-q9-01,prc-com-s480g10-q9-26-h.hcm.private.mobifone.vn,06/08/2024,12/08/2024,0,9,59,4,0,0,prvhcm
+71c10974-396e-4ab9-8e36-1eb1cfca1a81,Lời nhắn thoại,PRV-Q09-3-TTMDS-LOINHANTHOAI-BOTBuild1,100,8,16,100,100,"10.0.9.54, 192.168.1.54, 172.17.0.1, 172.18.0.1",,Ubuntu 22.04,,,,Triển khai tính năng tương tác thông minh trên hệ thống lời nhắn thoại,207/TT.NOC-QLVAS,06/02/2024,TT MDS,Vũ Tiến Anh anh.vutien@mobifone.vn 0368230996,Nội bộ,3,prc-compute-q9-01,prc-com-s480g10-q9-04-h.hcm.private.mobifone.vn,16/02/2024,06/06/2024,3,43,45,38,38,0,prvhcm
+1fe690e9-0156-44c3-a85d-a336934c1a14,Lời nhắn thoại,PRV-Q09-3-TTMDS-LOINHANTHOAI-Database3,100,8,32,200,200,"10.0.9.43, 192.168.1.43, 172.19.0.1, 172.20.0.1, 10.24.3.1, 172.17.0.1, 172.18.0.1",10.0.9.59 (VIP),Ubuntu 22.04,,,,Triển khai tính năng tương tác thông minh trên hệ thống lời nhắn thoại,207/TT.NOC-QLVAS,06/02/2024,TT MDS,Vũ Tiến Anh anh.vutien@mobifone.vn 0368230996,Nội bộ,3,prc-compute-q9-01,prc-com-s480g10-q9-27-h.hcm.private.mobifone.vn,16/02/2024,24/05/2024,12,29,39,14,19,0,prvhcm
+beca00e8-857b-4d0b-893d-1b189dd8e6ea,Lời nhắn thoại,PRV-Q09-3-TTMDS-LOINHANTHOAI-GATE2STT2,100,24,64,200,200,"10.0.9.67, 172.17.0.1, 172.19.0.1, 172.21.0.1, 172.20.0.1, 10.24.7.1, 10.24.72.1",10.0.9.68 (VIP),Ubuntu 22.04,,,,Triển khai tính năng speech to text trên hệ thống lời nhắn thoại,747/TT.NOC-QLVAS,08/05/2024,TT MDS,Trần Quang Thắng thang.tranquang@mobifone.vn 0903106558,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-22-h.hcm.private.mobifone.vn,11/06/2024,11/06/2024,2,30,32,24,5,0,prvhcm
+3ea37217-7638-4e0c-82be-436a2921dccc,Hệ thống Quảng cáo tập trung MobiAd Plus,PRV-Q09-3-TTMDS-MOBIADS_PLUS-MONITOR,100,8,16,200,200,"10.0.133.37, 172.17.0.1, 172.18.0.1",,Ubuntu 22.04,,,,Gateway chuyển tiếp thông tin tương tác của người dùng trên các tài sản số của MobiFone với hệ thống cung cấp quảng cáo AiACTIV,975/TT.NOC-QLVAS,12/06/2024,TT MDS,Trương Văn Hùng hung.truongvan@mobifone.vn 0906136298,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-17-h.hcm.private.mobifone.vn,14/06/2024,14/06/2024,0,6,6,6,1,0,prvhcm
+a791803c-2178-4348-bd54-a3009c112847,Hệ thống Quảng cáo tập trung MobiAd Plus,PRV-Q09-3-TTMDS-MOBIADS_PLUS-REPORT01,100,8,16,300,300,10.0.133.38,"42.1.110.63, 10.0.133.51 (VIP)",Ubuntu 22.04,,,,Gateway chuyển tiếp thông tin tương tác của người dùng trên các tài sản số của MobiFone với hệ thống cung cấp quảng cáo AiACTIV,975/TT.NOC-QLVAS,12/06/2024,TT MDS,Trương Văn Hùng hung.truongvan@mobifone.vn 0906136298,Kinh doanh,3,prc-compute-q9-01,prc-com-s480g10-q9-19-h.hcm.private.mobifone.vn,14/06/2024,14/06/2024,0,5,6,5,1,0,prvhcm
+22c1671c-77b4-48ec-af42-554bb606acf1,MobiEdu - Phân hệ nội bộ,PRV-Q09-3-TTMDS-MOOCs-STREAMING03,100,16,24,1200,1200,"10.0.133.90, 172.17.0.1",42.1.110.215-218 (VIP),Ubuntu 22.04,,,,,65/BUCLOUDC,07/08/2024,TT MDS,Phạm Ngọc Khánh khanh.phamngoc@mobifone.vn 0763290827,Nội bộ,1,prc-compute-q9-01,prc-com-s480g10-q9-09-h.hcm.private.mobifone.vn,12/08/2024,12/08/2024,1,16,99,3,100,0,prvhcm
